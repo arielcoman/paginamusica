@@ -156,7 +156,7 @@ nav { display: flex; width: 100%;
 	flex-direction: column; 
     ;box-sizing: content-box;background-color: #E8E8E8;}
 /** contenedor de cada cancion **/
-.cancion {display: flex; background-color: white;
+.cancion {display: inline-flex; background-color: white;
 	justify-content: space-between;
 	align-items: center; margin: 2em; width: 95%; height: 10vh; }
 /** detalle de cada parte de una columna**/
@@ -194,7 +194,7 @@ footer {background-color:#222;
 }
 .Instrumentos { height: 5em; width: 5em; }
 
-#formgeneral { display: flex; justify-content: center; }
+#formgeneral {  display: flex; justify-content: center; flex:1; }
 #datos { ;width: 50%; }
 #datos1 { display: flex;justify-content: center; width: 100%; background-color: #E8E8E8;}
 #titulo { display: flex;width: 100%;background-color: #E8E8E8; }

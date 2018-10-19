@@ -156,7 +156,7 @@ nav { display: flex; width: 100%;
 	flex-direction: column; 
     ;box-sizing: content-box;background-color: #E8E8E8;}
 /** contenedor de cada cancion **/
-.cancion {display: inline-flex; background-color: white;
+.cancion {display: flex; background-color: white;
 	justify-content: space-between;
 	align-items: center; margin: 2em; width: 95%; height: 10vh; }
 /** detalle de cada parte de una columna**/
@@ -190,21 +190,25 @@ footer {background-color:#222;
 /** comienza la parte de carga del proyecto **/
  
 
-#nuevoproyecto { padding:2em; border:grey solid; width: 30%;
-}
-.Instrumentos { height: 5em; width: 5em; }
-
-#formgeneral {  display: flex; justify-content: center; flex:1; }
+/** primer contenedor **/
+#formgeneral { display: flex; justify-content: center; }
+/** segundo contenedor con el ancho especifico **/
 #datos { ;width: 50%; }
-#datos1 { display: flex;justify-content: center; width: 100%; background-color: #E8E8E8;}
+/** contenedores dentro de #datos **/
+#datos1 { display: flex;
+          justify-content: center; 
+          width: 100%; 
+          background-color: #E8E8E8;}
 #titulo { display: flex;width: 100%;background-color: #E8E8E8; }
 #titulo h2 { font-size: 2em; padding: 0.5em;margin:0; }
 
 #formulario { flex: 70%; ;
             align-self: center;}
+#formulario img {width: 8%;}
+
 .imagen { flex: 30%; }
 /** estilo para cada item **/            
-.datos-del-proyecto { padding: 1em; }
+.datos-del-proyecto { padding: 0.5em; }
 .datos-del-proyecto label  { font-size: 1.5em; }
 .datos-del-proyecto input{ padding: 0.2em; }
 
